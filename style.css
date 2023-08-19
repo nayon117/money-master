@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    padding: 1em;
+    gap: 1rem;
+}
+.img-container{
+    flex:1;
+}
+.input-container {
+    flex: 1;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    padding: 1em;
+}
+input{
+    margin: .5em 0;
+     
+}
+input#food-field, input#rent-field{
+    margin-left:1.2em;
+}
+.btn-calculate{
+    display: block;
+     margin: 0 6.5em;
+    margin-top: .8em;
+    background-color: #59A5FF;
+    color: white;
+    border: none;
+    padding: .5em .8em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-calculate:hover{
+    color: #59A5FF;
+    background-color: white;
+}
+.save{
+    display: inline;
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+       .container{
+        flex-direction: column;
+       }
+       
+}
